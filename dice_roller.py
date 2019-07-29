@@ -241,6 +241,8 @@ def _print_menu_roll(current_die):
 
 
 def run():
+    _create_user_dir_file()
+    _load_saved_dice()
     _print_menu_main()
     print("closing app...")
 
@@ -288,8 +290,23 @@ def custom_numerical_die():
 
 
 def _create_user_dir_file():
+    if not path.isfile(_file_path):
+        try:
+            open(_file_path, 'r')
+        except IOError:
+            open(_file_path, 'w')
+
     if not path.exists(_user_dir):
         makedirs(_user_dir)
+
+
+def _load_saved_dice():
+    with open(_file_path, "rb") as dice_file:
+        while True:
+            try:
+                _all_dice.append(pickle.load(dice_file))
+            except EOFError:
+                break
 
 
 if __name__ == "__main__":
