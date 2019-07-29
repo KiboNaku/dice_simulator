@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94b1f75d-6deb-49ac-b327-02902ae27dd0" name="Default Changelist" comment="">
+    <list default="true" id="94b1f75d-6deb-49ac-b327-02902ae27dd0" name="Default Changelist" comment="enhanced menu system">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dice_roller.py" beforeDir="false" afterPath="$PROJECT_DIR$/dice_roller.py" afterDir="false" />
     </list>
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dice_roller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="251" column="26" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
+            <state relative-caret-position="231">
+              <caret line="140" column="56" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -43,9 +43,10 @@
       <find>print_rolls</find>
       <find>print_menu</find>
       <find>dice</find>
-      <find>die</find>
       <find>_columns_def</find>
       <find>additional_info</find>
+      <find>die</find>
+      <find>width</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -64,8 +65,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-249" />
-    <option name="y" value="108" />
+    <option name="x" value="-250" />
+    <option name="y" value="105" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
   </component>
@@ -75,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -93,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +172,10 @@
       <workItem from="1564067875726" duration="6980000" />
       <workItem from="1564154043178" duration="9237000" />
       <workItem from="1564175275935" duration="9206000" />
-      <workItem from="1564240460776" duration="12893000" />
+      <workItem from="1564240460776" duration="14328000" />
+      <workItem from="1564272725124" duration="6839000" />
+      <workItem from="1564329402460" duration="4519000" />
+      <workItem from="1564344628537" duration="9265000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1563898428452</created>
@@ -180,11 +184,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563898428453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="enhanced menu system">
+      <created>1564269533828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564269533828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39662000" />
+    <option name="totallyTimeSpent" value="61720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,7 +215,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24161074" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25167784" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -227,7 +238,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="9" side_tool="true" visible="true" weight="0.28322148" />
+      <window_info anchor="right" id="Run" order="9" side_tool="true" weight="0.54697984" />
       <window_info anchor="right" id="SciView" order="10" />
     </layout>
   </component>
@@ -236,15 +247,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="enhanced menu system" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhanced menu system" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dice_simulator$dice_roller.coverage" NAME="dice_roller Coverage Results" MODIFIED="1564269467188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dice_simulator$dice_roller.coverage" NAME="dice_roller Coverage Results" MODIFIED="1564358425351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custom_dice.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_dice.txt" />
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -252,19 +262,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userdata/custom_dice.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/userdata/custom_dice.txt" />
     <entry file="file://$PROJECT_DIR$/dice_roller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="251" column="26" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
+        <state relative-caret-position="231">
+          <caret line="140" column="56" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="56" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <last-edited>JavaFX-11</last-edited>
@@ -280,6 +311,17 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>Python 3.7 (Python 3.7)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
