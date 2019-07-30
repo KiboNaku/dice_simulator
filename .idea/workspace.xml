@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94b1f75d-6deb-49ac-b327-02902ae27dd0" name="Default Changelist" comment="">
+    <list default="true" id="94b1f75d-6deb-49ac-b327-02902ae27dd0" name="Default Changelist" comment="removed the accidental custom_dice.pickle file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dice_roller.py" beforeDir="false" afterPath="$PROJECT_DIR$/dice_roller.py" afterDir="false" />
     </list>
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dice_roller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
+            <state relative-caret-position="231">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
             </state>
           </provider>
         </entry>
@@ -176,7 +176,8 @@
       <workItem from="1564272725124" duration="6839000" />
       <workItem from="1564329402460" duration="4519000" />
       <workItem from="1564344628537" duration="9265000" />
-      <workItem from="1564365614447" duration="1337000" />
+      <workItem from="1564365614447" duration="4425000" />
+      <workItem from="1564437413884" duration="7953000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1563898428452</created>
@@ -199,11 +200,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564365663667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="saves and loads custom dice properly">
+      <created>1564366972520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564366972520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63057000" />
+    <option name="totallyTimeSpent" value="74098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,7 +231,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25100672" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25100672" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -257,7 +265,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="enhanced menu system" />
     <MESSAGE value="allows user to create custom dice" />
-    <option name="LAST_COMMIT_MESSAGE" value="allows user to create custom dice" />
+    <MESSAGE value="saves and loads custom dice properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="saves and loads custom dice properly" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -275,17 +284,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userdata/custom_dice.txt" />
-    <entry file="file://$PROJECT_DIR$/userdata/custom_dice.pickle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="106" lean-forward="true" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/userdata/custom_dice.pickle" />
     <entry file="file://$PROJECT_DIR$/dice_roller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
+        <state relative-caret-position="231">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
         </state>
       </provider>
     </entry>
